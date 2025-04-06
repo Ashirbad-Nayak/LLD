@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/ElevatorSystem/ElevatorSystemLLD/.vs/ElevatorSystemLLD
+/ElevatorSystem/ElevatorSystemLLD/ElevatorSystemLLD/obj
+/ElevatorSystem/ElevatorSystemLLD/ElevatorSystemLLD/bin/Debug/net8.0
