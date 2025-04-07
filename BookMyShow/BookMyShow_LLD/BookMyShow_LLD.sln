@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookMyShow_LLD", "BookMyShow_LLD\BookMyShow_LLD.csproj", "{C187F444-C6A3-444F-B6A4-ECEAF16F7EF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C187F444-C6A3-444F-B6A4-ECEAF16F7EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C187F444-C6A3-444F-B6A4-ECEAF16F7EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C187F444-C6A3-444F-B6A4-ECEAF16F7EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C187F444-C6A3-444F-B6A4-ECEAF16F7EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A63D6470-65F0-4A7F-9256-BBA8FB604CF6}
+	EndGlobalSection
+EndGlobal
