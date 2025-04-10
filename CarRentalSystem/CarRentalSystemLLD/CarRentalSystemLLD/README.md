@@ -11,8 +11,8 @@ The Car Rental System is a software application designed to manage car rentals. 
 - Different payment strategies (Cash, UPI)
 
 ## Filtering And Getting Avaialble Cars Within a Daterange
-- 1. if the dataset is not that huge, everytime useer filters witha start date and end date, get all the bookings and check waht all cars are booked within those dates and no available
-	and return all cars except the booked cars
+- 1. if the dataset is not that huge, everytime useer filters witha start date and end date, get all the bookings and check waht all cars are booked within those dates and are not available
+	,Then return all cars except the booked cars
 
 - 2.If data set is huge, 
 - User selects location + date range
@@ -26,6 +26,7 @@ The Car Rental System is a software application designed to manage car rentals. 
 - Booking is stored in SQL → future availability gets updated
 
 ## Availability Precomputation
+
 - ✅ Start with SQL + indexed queries (what we did earlier)
 
 - 🧠 Add availability precomputation once scale increases
@@ -61,6 +62,7 @@ The Car Rental System is a software application designed to manage car rentals. 
 }
 - Then  query using Elasticsearch range queries 
 - Why Use Elasticsearch for This?
+
 🔍 Fast filtering across millions of listings
 
 🗺️ Built-in support for geo-search (e.g., find listings within 10km)
@@ -68,7 +70,8 @@ The Car Rental System is a software application designed to manage car rentals. 
 📅 Supports date filters natively
 
 💥 Powerful aggregations (e.g., min/max price by city)
-- Feature	        In ES
+
+- Feature	                      In ES
 - Location search	✅ (geo or text)
 - Available dates	✅ (via available_dates or ranges)
 - Price filters	    ✅ (range filter)
