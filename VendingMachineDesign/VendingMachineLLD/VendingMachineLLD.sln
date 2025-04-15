@@ -20,7 +20,7 @@ Global
 		{CDA855F1-302D-44B6-85EF-66E3DE0D75B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDA855F1-302D-44B6-85EF-66E3DE0D75B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDA855F1-302D-44B6-85EF-66E3DE0D75B2}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
+		EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CDA855F1-302D-44B6-85EF-66E3DE0D75B2} = {43167A6A-1929-4340-B0AA-EC771834DCD6}
 	EndGlobalSection
