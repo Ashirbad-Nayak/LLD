@@ -25,9 +25,10 @@ lru.Display();
 
 Expected Output:
 ```
-Key : 1, Value : 10
 Key : 4, Value : 40
+Key : 1, Value : 10
 Key : 3, Value : 30
+
 ```
 
 ---
